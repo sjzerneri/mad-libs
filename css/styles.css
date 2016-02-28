@@ -116,10 +116,21 @@ header {
     margin-bottom: .7rem;
 }
 
+.gender-selection {
+    width: 99%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
 
 /* Footer styles (Main Module)
 (all the styles inside the < footer > tag)
 */
+
+footer {
+    margin-top: 10rem;
+}
 
 
 /*
