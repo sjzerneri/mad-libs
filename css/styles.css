@@ -63,6 +63,18 @@ p {
     font-size: 1.3rem;
 }
 
+button[type=submit] {
+    margin-top: 3rem;
+    background-color: white;
+    border: 1px solid black;
+    margin-right: 3rem;
+}
+
+.submission,
+.resetting {
+    text-align: right;
+}
+
 
 /* Header styles (Main Module)
 (all the styles inside the < header > or < nav > tags)
@@ -108,7 +120,9 @@ header {
 
 .word-inputs {
     padding-top: 2rem;
-    padding-left: 2rem;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
 }
 
 .word-selection input {
@@ -121,6 +135,28 @@ header {
     margin: 0 auto;
     text-align: center;
     padding-bottom: 3rem;
+}
+
+.hor-line {
+    height: 5px;
+    /* Line width */
+    background-color: black;
+    /* Line color */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.all-words {
+    margin: 0 auto;
+    height: 100%;
+}
+
+.generator {
+    margin-bottom: 2rem;
+}
+
+.madlib-content {
+    margin-top: 3rem;
 }
 
 

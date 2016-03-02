@@ -1,4 +1,4 @@
-var app = angular.module('ngMadLibs', [])
+var app = angular.module('ngMadLibs', ['ngAnimate'])
 
 app.constant('VERSION', "1")
 app.run(function (VERSION, $rootScope) {
@@ -13,5 +13,16 @@ app.controller('madLibsController', function ($scope) {
         pronoun: 'she',
         poss: 'her'
     };
+
+
+    $scope.submit = function () {
+        $scope.hideForm = true;
+    }
+
+    $scope.startover = function () {
+        $scope.data = {};
+        $scope.hideForm = false;
+        $scope.submitted = false;
+    }
 
 });
